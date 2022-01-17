@@ -148,4 +148,51 @@ p {
     transition-duration: 0.5s;
 }
 
+.input_container {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 30vw;
+    height: 4vw;
+    margin-bottom: 1vw;
+    padding: auto;
+    border-radius: 1vw;
+    padding: 0.75vw 0;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: -3.5vw;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+input {
+    display: inline-block;
+    font-size: max(1.45vw, 10px);
+    text-align: center;
+    width: 70%;
+    height: 3vw;
+    margin-left: 8%;
+    border: none;
+    border-radius: 1vw 0 0 1vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: gray;
+    font-size: max(1.45vw, 10px);
+}
+
+label {
+    display: inline-block;
+    width: 10%;
+    height: 3vw;
+    background-color: gray;
+    line-height: 3.25vw;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 0 1vw 1vw 0;
+}
+
+label:hover {
+    cursor: pointer;
+}
 
