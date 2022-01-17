@@ -62,7 +62,7 @@ function repeat(){
             new_index = lists[delete_index].indexOf(event_text)
             lists[delete_index].splice( new_index, 1 );
             console.log(this.textContent) //event内容取得
-            console.log("消しました")   
+  
         }
     })
     $(".draggable").droppable({
