@@ -1,0 +1,151 @@
+header {
+    width: 100%;
+    height: 1vh;
+}
+.holder {
+    display: inline-block;
+    width: 32vw;
+}
+
+#todoHolder {
+}
+
+#doing {
+}
+
+#done {
+}
+
+.todo {
+    width: 100%;
+    height: 39.25vh;
+    padding: 3vh 0;
+    overflow-y: scroll;
+    overflow-x: none;
+}
+
+
+#first {
+    background-color: rgb(255, 179, 191);
+    margin-top: 0vw;
+    border-radius: 1vw 1vw 0 0;
+    border-bottom: solid 0.5vh white;
+}
+
+#normal {
+    margin-bottom: 0;
+    background-color: rgb(253, 216, 223);
+    border-radius: 0 0 1vw 1vw;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 1vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: max(2.5vw, 20px);
+    color: gray;
+}
+
+.eventHolder {
+    width: 100%;
+    height: 85vh;
+    border-radius: 1vw;
+    padding: 3vh 0;
+    overflow-y: scroll;
+    overflow-x: none;
+}
+
+#doingHolder {
+    background-color: rgb(129, 200, 247);
+}
+
+#doneHolder {
+    background-color: rgb(148, 204, 148);
+}
+
+.todoEventHolder {
+    padding: 0;
+}
+
+
+.event {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: table;
+    width: 30vw;
+    height: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vw;
+    padding: auto;
+    border-radius: 1vw;
+    padding: 0.75vw 0;
+}
+
+.event_text {
+    padding: 1vw auto;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: max(1.45vw, 10px);
+    font-weight: bold;
+    text-align: center;
+}
+
+.event:hover {
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+}
+
+.event:hover .close_button {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.close_button {
+    position: absolute;
+    top: -0.75vw;
+    right: -0.75vw;
+    width: 2vw;
+    height: 2vw;
+    opacity: 0;
+}
+
+.fa-times-circle {
+    width: 100%;
+    height: 100%;
+    color: gray;
+    font-size: 2vw;
+}
+
+.add_button {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 3.5vw;
+    height: 3.5vw;
+    background-color: rgb(224, 224, 224);
+    border-radius: 1.75vw;
+    opacity: 0.3;
+}
+
+.fa-plus {
+    height: 3.5vw;
+    width: 3.5vw;
+    text-align: center;
+    color: rgb(182, 182, 182);
+    font-size: 2vw;
+    position: absolute;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 0.75vw;
+}
+
+.add_button:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+

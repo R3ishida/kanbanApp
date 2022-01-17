@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8359e107df.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+    </header>
+    <div class="holder" id="todoHolder">
+        <p>ToDo</p>
+            <div class="todo draggable" id="first">
+                <div class="event">
+                    <p class="event_text">うんこを食べる</p>
+                    <div class="close_button">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                </div>
+                <div class="event">
+                    <p class="event_text">うんこを食べる</p>
+                    <div class="close_button">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                </div>
+                <div class="event">
+                    <p class="event_text">うんこを食べる</p>
+                    <div class="close_button">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                </div>
+                <div class="event">
+                    <p class="event_text">うんこを食べる</p>
+                    <div class="close_button">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                </div>
+                <div class="event">
+                    <p class="event_text">うんこを食べる</p>
+                    <div class="close_button">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                </div>
+                <div class="event">
+                    <p class="event_text">うんこを食べる</p>
+                    <div class="close_button">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                </div>
+                <div class="add_button">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <div class="todo draggable" id="normal">
+                <div class="event">
+                    <p class="event_text">うんこを食べる</p>
+                    <div class="close_button">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                </div>
+                <div class="event">
+                    <p class="event_text">うんこを食べる</p>
+                    <div class="close_button">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                </div>
+                <div class="add_button">
+                    <i class="fas fa-plus"></i>
+                </div>
+                
+            </div>
+        </div>
+    <div class="holder" id="doing">
+        <p>Doing</p>
+        <div class="eventHolder draggable" id="doingHolder">
+            <div class="event">
+                <p class="event_text">うんこを食べる</p>
+                <div class="close_button">
+                    <i class="fas fa-times-circle"></i>
+                </div>
+            </div>
+            <div class="event">
+                <p class="event_text">うんこを食べる</p>
+                <div class="close_button">
+                    <i class="fas fa-times-circle"></i>
+                </div>
+            </div>
+            <div class="event">
+                <p class="event_text">うんこを食べる</p>
+                <div class="close_button">
+                    <i class="fas fa-times-circle"></i>
+                </div>
+            </div>
+            <div class="add_button">
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+    </div>
+    <div class="holder" id="done">
+        <p>Done</p>
+        <div class="eventHolder draggable" id="doneHolder">
+
+        </div>
+    </div>
+</body>
+<script src="kanban.js"></script>
